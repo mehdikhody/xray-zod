@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { UserObject } from './UserObject';
 
 export const ServerObject = z.object({

@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const SystemPolicyObject = z.object({
     statsInboundUplink: z.boolean().optional(),

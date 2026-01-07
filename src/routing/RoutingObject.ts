@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { RuleObject } from './RuleObject';
 import { BalancerObject } from './BalancerObject';
 

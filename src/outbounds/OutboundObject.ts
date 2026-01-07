@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { ProxySettingsObject } from './ProxySettingsObject';
 import { MuxObject } from './MuxObject';
 import { StreamSettingsObject } from '../transport';

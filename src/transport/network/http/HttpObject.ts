@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const HttpObject = z.object({
     host: z.array(z.string()).optional(),
@@ -8,7 +8,7 @@ export const HttpObject = z.object({
     method: z
         .enum(['GET', 'POST', 'HEAD', 'PUT', 'DELETE', 'CONNECT', 'OPTIONS', 'TRACE', 'PATCH'])
         .optional(),
-    headers: z.record(z.array(z.string())).optional(),
+    headers: z.record(z.string(), z.array(z.string())).optional(),
 });
 
 export type HttpObject = z.infer<typeof HttpObject>;

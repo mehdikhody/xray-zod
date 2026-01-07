@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { AccountObject } from '../http';
 
 export const InboundConfigurationObject = z.object({

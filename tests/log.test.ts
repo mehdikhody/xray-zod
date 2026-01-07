@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { LogObject } from 'xray-zod';
+import { Log } from '../src';
 
 describe('LogObject', () => {
     test('should parse and validate log object', () => {
@@ -11,7 +11,7 @@ describe('LogObject', () => {
             maskAddress: 'quarter',
         };
 
-        const result = LogObject.safeParse(log_config);
+        const result = Log.LogObject.safeParse(log_config);
         expect(result.success).toBe(true);
         expect(log_config).toEqual(result.data);
     });

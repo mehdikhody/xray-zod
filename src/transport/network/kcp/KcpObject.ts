@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { HeaderObject } from './HeaderObject';
 
 export const KcpObject = z.object({

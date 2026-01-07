@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const RuleObject = z.object({
     domainMatcher: z.enum(['hybrid', 'linear']).optional(),

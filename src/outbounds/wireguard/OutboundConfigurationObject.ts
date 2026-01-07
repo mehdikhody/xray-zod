@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { PeerObject } from './PeerObject';
 
 export const OutboundConfigurationObject = z.object({

@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { LogObject } from './log';
 import { ApiObject } from './api';
 import { DnsObject } from './dns';

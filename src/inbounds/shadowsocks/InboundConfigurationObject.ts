@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { ClientObject } from './ClientObject';
 import { Method } from './Method';
 

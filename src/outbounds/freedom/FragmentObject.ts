@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const FragmentObject = z.object({
     packets: z.enum(['1-3', 'tlshello']),

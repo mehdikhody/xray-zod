@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const SniffingObject = z.object({
     enabled: z.boolean().optional(),

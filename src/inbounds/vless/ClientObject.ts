@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const ClientObject = z.object({
     id: z.string().uuid(),

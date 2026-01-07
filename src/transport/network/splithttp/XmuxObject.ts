@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const XmuxObject = z.object({
     maxConcurrency: z.union([z.number(), z.string()]).optional(),

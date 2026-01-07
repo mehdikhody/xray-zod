@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const Method = z.enum([
     '2022-blake3-aes-128-gcm',

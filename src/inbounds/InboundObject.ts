@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'zod/v4';
 import { SniffingObject } from './SniffingObject';
 import { AllocateObject } from './AllocateObject';
 import { StreamSettingsObject } from '../transport';
