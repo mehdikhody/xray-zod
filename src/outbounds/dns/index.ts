@@ -1,2 +1,2 @@
-export * from './OutboundConfigurationObject';
-export * from './OutboundDnsObject';
+export * from './OutboundConfigurationObject.js';
+export * from './OutboundDnsObject.js';

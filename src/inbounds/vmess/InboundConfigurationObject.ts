@@ -1,7 +1,7 @@
 import { z } from 'zod/v4';
-import { ClientObject } from '../shadowsocks';
-import { DetourObject } from './DetourObject';
-import { DefaultObject } from './DefaultObject';
+import { ClientObject } from '../shadowsocks/index.js';
+import { DetourObject } from './DetourObject.js';
+import { DefaultObject } from './DefaultObject.js';
 
 export const InboundConfigurationObject = z.object({
     clients: z.array(ClientObject),

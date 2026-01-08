@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { XmuxObject } from './XmuxObject';
+import { XmuxObject } from './XmuxObject.js';
 
 export const SplitHttpObject = z.object({
     path: z.string().optional(),

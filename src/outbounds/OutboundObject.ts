@@ -1,18 +1,18 @@
 import { z } from 'zod/v4';
-import { ProxySettingsObject } from './ProxySettingsObject';
-import { MuxObject } from './MuxObject';
-import { StreamSettingsObject } from '../transport';
-import { OutboundBlackholeObject } from './blackhole';
-import { OutboundDnsObject } from './dns';
-import { OutboundFreedomObject } from './freedom';
-import { OutboundHttpObject } from './http';
-import { OutboundLoopbackObject } from './loopback';
-import { OutboundShadowsocksObject } from './shadowsocks';
-import { OutboundSocksObject } from './socks';
-import { OutboundTrojanObject } from './trojan';
-import { OutboundVlessObject } from './vless';
-import { OutboundVmessObject } from './vmess';
-import { OutboundWireguardObject } from './wireguard';
+import { ProxySettingsObject } from './ProxySettingsObject.js';
+import { MuxObject } from './MuxObject.js';
+import { StreamSettingsObject } from '../transport/index.js';
+import { OutboundBlackholeObject } from './blackhole/index.js';
+import { OutboundDnsObject } from './dns/index.js';
+import { OutboundFreedomObject } from './freedom/index.js';
+import { OutboundHttpObject } from './http/index.js';
+import { OutboundLoopbackObject } from './loopback/index.js';
+import { OutboundShadowsocksObject } from './shadowsocks/index.js';
+import { OutboundSocksObject } from './socks/index.js';
+import { OutboundTrojanObject } from './trojan/index.js';
+import { OutboundVlessObject } from './vless/index.js';
+import { OutboundVmessObject } from './vmess/index.js';
+import { OutboundWireguardObject } from './wireguard/index.js';
 
 export const OutboundObject = z
     .object({

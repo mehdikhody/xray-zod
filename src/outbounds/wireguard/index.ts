@@ -1,3 +1,3 @@
-export * from './PeerObject';
-export * from './OutboundConfigurationObject';
-export * from './OutboundWireguardObject';
+export * from './PeerObject.js';
+export * from './OutboundConfigurationObject.js';
+export * from './OutboundWireguardObject.js';

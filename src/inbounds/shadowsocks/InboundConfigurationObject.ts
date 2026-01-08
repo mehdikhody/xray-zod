@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
-import { ClientObject } from './ClientObject';
-import { Method } from './Method';
+import { ClientObject } from './ClientObject.js';
+import { Method } from './Method.js';
 
 export const InboundConfigurationObject = z.object({
     clients: z.array(ClientObject).optional(),

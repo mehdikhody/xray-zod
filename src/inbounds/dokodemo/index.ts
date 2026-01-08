@@ -1,2 +1,2 @@
-export * from './InboundConfigurationObject';
-export * from './InboundDokodemoObject';
+export * from './InboundConfigurationObject.js';
+export * from './InboundDokodemoObject.js';

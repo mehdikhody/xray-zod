@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
-import { RuleObject } from './RuleObject';
-import { BalancerObject } from './BalancerObject';
+import { RuleObject } from './RuleObject.js';
+import { BalancerObject } from './BalancerObject.js';
 
 export const RoutingObject = z.object({
     domainStrategy: z.enum(['AsIs', 'IPIfNonMatch', 'IPOnDemand']).optional(),

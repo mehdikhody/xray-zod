@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { PeerObject } from './PeerObject';
+import { PeerObject } from './PeerObject.js';
 
 export const InboundConfigurationObject = z.object({
     secretKey: z.string(),

@@ -2,9 +2,9 @@
     "include": ["src/**/*", "tests/**/*"],
     "exclude": ["node_modules", "build"],
     "compilerOptions": {
-        "module": "esnext",
+        "module": "nodenext",
         "target": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "nodenext",
         "lib": ["ESNext"],
         "esModuleInterop": true,
         "declaration": true,

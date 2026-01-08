@@ -1,3 +1,3 @@
-export * from './ResponseObject';
-export * from './OutboundConfigurationObject';
-export * from './OutboundBlackholeObject';
+export * from './ResponseObject.js';
+export * from './OutboundConfigurationObject.js';
+export * from './OutboundBlackholeObject.js';

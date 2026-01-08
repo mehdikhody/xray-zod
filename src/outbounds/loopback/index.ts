@@ -1,2 +1,2 @@
-export * from './OutboundConfigurationObject';
-export * from './OutboundLoopbackObject';
+export * from './OutboundConfigurationObject.js';
+export * from './OutboundLoopbackObject.js';

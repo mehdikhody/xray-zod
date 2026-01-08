@@ -1,2 +1,2 @@
-export * from './HeaderObject';
-export * from './KcpObject';
+export * from './HeaderObject.js';
+export * from './KcpObject.js';

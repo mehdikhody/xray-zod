@@ -1,3 +1,3 @@
-export * from './AccountObject';
-export * from './InboundConfigurationObject';
-export * from './InboundSocksObject';
+export * from './AccountObject.js';
+export * from './InboundConfigurationObject.js';
+export * from './InboundSocksObject.js';

@@ -1,7 +1,7 @@
 {
     "name": "xray-zod",
     "description": "xray configuration with zod schema",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "license": "MIT",
     "main": "./build/index.js",
     "typings": "./build/index.d.ts",

@@ -1,3 +1,3 @@
-export * from './ClientObject';
-export * from './InboundConfigurationObject';
-export * from './InboundVlessObject';
+export * from './ClientObject.js';
+export * from './InboundConfigurationObject.js';
+export * from './InboundVlessObject.js';

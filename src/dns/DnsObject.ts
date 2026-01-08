@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { DnsServerObject } from './DnsServerObject';
+import { DnsServerObject } from './DnsServerObject.js';
 
 export const DnsObject = z.object({
     hosts: z.record(z.string(), z.union([z.string(), z.array(z.string())])).optional(),

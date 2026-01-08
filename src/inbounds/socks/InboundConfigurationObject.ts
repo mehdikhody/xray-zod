@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { AccountObject } from '../http';
+import { AccountObject } from '../http/index.js';
 
 export const InboundConfigurationObject = z.object({
     auth: z.enum(['noauth', 'password']).optional(),

@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { AccountObject } from './AccountObject';
+import { AccountObject } from './AccountObject.js';
 
 export const ServerObject = z.object({
     address: z.string(),

@@ -1,3 +1,3 @@
-export * from './ServerObject';
-export * from './OutboundConfigurationObject';
-export * from './OutboundTrojanObject';
+export * from './ServerObject.js';
+export * from './OutboundConfigurationObject.js';
+export * from './OutboundTrojanObject.js';

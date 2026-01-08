@@ -1,1 +1,1 @@
-export * from './ObservatoryObject';
+export * from './ObservatoryObject.js';

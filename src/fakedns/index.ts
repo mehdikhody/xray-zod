@@ -1,1 +1,1 @@
-export * from './FakeDNSObject';
+export * from './FakeDNSObject.js';

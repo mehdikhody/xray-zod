@@ -1,1 +1,1 @@
-export * from './MetricsObject';
+export * from './MetricsObject.js';

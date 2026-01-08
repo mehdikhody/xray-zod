@@ -1,3 +1,3 @@
-export * from './RuleObject';
-export * from './BalancerObject';
-export * from './RoutingObject';
+export * from './RuleObject.js';
+export * from './BalancerObject.js';
+export * from './RoutingObject.js';

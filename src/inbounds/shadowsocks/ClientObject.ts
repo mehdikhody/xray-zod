@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { Method } from './Method';
+import { Method } from './Method.js';
 
 export const ClientObject = z.object({
     method: Method.optional(),

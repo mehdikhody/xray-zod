@@ -1,3 +1,3 @@
-export * from './SystemPolicyObject';
-export * from './LevelPolicyObject';
-export * from './PolicyObject';
+export * from './SystemPolicyObject.js';
+export * from './LevelPolicyObject.js';
+export * from './PolicyObject.js';

@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { HeaderObject } from './HeaderObject';
+import { HeaderObject } from './HeaderObject.js';
 
 export const KcpObject = z.object({
     mtu: z.number().optional(),

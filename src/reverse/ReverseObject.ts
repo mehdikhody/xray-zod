@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
-import { BridgeObject } from './BridgeObject';
-import { PortalObject } from './PortalObject';
+import { BridgeObject } from './BridgeObject.js';
+import { PortalObject } from './PortalObject.js';
 
 export const ReverseObject = z.object({
     bridges: z.array(BridgeObject).optional(),

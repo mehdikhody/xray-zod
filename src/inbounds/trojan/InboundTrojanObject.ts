@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { InboundConfigurationObject } from './InboundConfigurationObject';
+import { InboundConfigurationObject } from './InboundConfigurationObject.js';
 
 export const InboundTrojanObject = z.object({
     protocol: z.literal('trojan'),

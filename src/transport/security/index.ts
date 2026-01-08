@@ -1,3 +1,3 @@
-export * from './TLSObject';
-export * from './RealityObject';
-export * from './SecurityObject';
+export * from './TLSObject.js';
+export * from './RealityObject.js';
+export * from './SecurityObject.js';

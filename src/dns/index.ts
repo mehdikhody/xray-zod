@@ -1,2 +1,2 @@
-export * from './DnsObject';
-export * from './DnsServerObject';
+export * from './DnsObject.js';
+export * from './DnsServerObject.js';

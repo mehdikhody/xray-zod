@@ -1,1 +1,1 @@
-export * from './HttpUpgradeObject';
+export * from './HttpUpgradeObject.js';

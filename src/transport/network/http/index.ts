@@ -1,1 +1,1 @@
-export * from './HttpObject';
+export * from './HttpObject.js';

@@ -1,1 +1,1 @@
-export { StreamSettingsObject as TransportObject } from './StreamSettingsObject';
+export { StreamSettingsObject as TransportObject } from './StreamSettingsObject.js';

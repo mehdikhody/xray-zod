@@ -1,18 +1,18 @@
 import { z } from 'zod/v4';
-import { LogObject } from './log';
-import { ApiObject } from './api';
-import { DnsObject } from './dns';
-import { RoutingObject } from './routing';
-import { PolicyObject } from './policy';
-import { InboundObject } from './inbounds';
-import { OutboundObject } from './outbounds';
-import { StatsObject } from './stats';
-import { ReverseObject } from './reverse';
-import { FakeDNSObject } from './fakedns';
-import { MetricsObject } from './metrics';
-import { ObservatoryObject } from './observatory';
-import { BurstObservatoryObject } from './burstObservatory';
-import { TransportObject } from './transport';
+import { LogObject } from './log/index.js';
+import { ApiObject } from './api/index.js';
+import { DnsObject } from './dns/index.js';
+import { RoutingObject } from './routing/index.js';
+import { PolicyObject } from './policy/index.js';
+import { InboundObject } from './inbounds/index.js';
+import { OutboundObject } from './outbounds/index.js';
+import { StatsObject } from './stats/index.js';
+import { ReverseObject } from './reverse/index.js';
+import { FakeDNSObject } from './fakedns/index.js';
+import { MetricsObject } from './metrics/index.js';
+import { ObservatoryObject } from './observatory/index.js';
+import { BurstObservatoryObject } from './burstObservatory/index.js';
+import { TransportObject } from './transport/index.js';
 
 export const ConfigObject = z.object({
     log: LogObject.optional(),

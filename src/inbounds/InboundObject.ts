@@ -1,14 +1,14 @@
 import { z } from 'zod/v4';
-import { SniffingObject } from './SniffingObject';
-import { AllocateObject } from './AllocateObject';
-import { StreamSettingsObject } from '../transport';
-import { InboundDokodemoObject } from './dokodemo';
-import { InboundHttpObject } from './http';
-import { InboundShadowsocksObject } from './shadowsocks';
-import { InboundVlessObject } from './vless';
-import { InboundVmessObject } from './vmess';
-import { InboundTrojanObject } from './trojan';
-import { InboundWireguardObject } from './wireguard';
+import { SniffingObject } from './SniffingObject.js';
+import { AllocateObject } from './AllocateObject.js';
+import { StreamSettingsObject } from '../transport/index.js';
+import { InboundDokodemoObject } from './dokodemo/index.js';
+import { InboundHttpObject } from './http/index.js';
+import { InboundShadowsocksObject } from './shadowsocks/index.js';
+import { InboundVlessObject } from './vless/index.js';
+import { InboundVmessObject } from './vmess/index.js';
+import { InboundTrojanObject } from './trojan/index.js';
+import { InboundWireguardObject } from './wireguard/index.js';
 
 export const InboundObject = z
     .object({

@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
-import { FragmentObject } from './FragmentObject';
-import { NoiseObject } from './NoiseObject';
+import { FragmentObject } from './FragmentObject.js';
+import { NoiseObject } from './NoiseObject.js';
 
 export const OutboundConfigurationObject = z.object({
     domainStrategy: z.enum(['AsIs', 'UseIP', 'UseIPv4', 'UseIPv6']).optional(),

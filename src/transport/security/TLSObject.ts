@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { CertificateObject } from '../CertificateObject';
+import { CertificateObject } from '../CertificateObject.js';
 
 export const TLSObject = z.object({
     serverName: z.string().optional(),

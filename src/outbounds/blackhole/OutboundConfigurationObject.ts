@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { ResponseObject } from './ResponseObject';
+import { ResponseObject } from './ResponseObject.js';
 
 export const OutboundConfigurationObject = z.object({ response: ResponseObject.optional() });
 

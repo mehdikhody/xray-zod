@@ -1,11 +1,11 @@
 import { z } from 'zod/v4';
-import { TcpObject } from './tcp';
-import { KcpObject } from './kcp';
-import { WebSocketObject } from './ws';
-import { HttpObject } from './http';
-import { GRPCObject } from './grpc';
-import { HttpUpgradeObject } from './httpupgrade';
-import { SplitHttpObject } from './splithttp';
+import { TcpObject } from './tcp/index.js';
+import { KcpObject } from './kcp/index.js';
+import { WebSocketObject } from './ws/index.js';
+import { HttpObject } from './http/index.js';
+import { GRPCObject } from './grpc/index.js';
+import { HttpUpgradeObject } from './httpupgrade/index.js';
+import { SplitHttpObject } from './splithttp/index.js';
 
 export const NetworkObject = z.union([
     z.object({ network: z.literal('tcp').optional(), tcpSettings: TcpObject }),

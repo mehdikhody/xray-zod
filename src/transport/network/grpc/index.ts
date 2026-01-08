@@ -1,1 +1,1 @@
-export * from './GRPCObject';
+export * from './GRPCObject.js';

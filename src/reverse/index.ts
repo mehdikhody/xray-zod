@@ -1,3 +1,3 @@
-export * from './BridgeObject';
-export * from './PortalObject';
-export * from './ReverseObject';
+export * from './BridgeObject.js';
+export * from './PortalObject.js';
+export * from './ReverseObject.js';

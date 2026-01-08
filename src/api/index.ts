@@ -1,1 +1,1 @@
-export * from './ApiObject';
+export * from './ApiObject.js';

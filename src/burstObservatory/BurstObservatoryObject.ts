@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { PingConfigObject } from './PingConfigObject';
+import { PingConfigObject } from './PingConfigObject.js';
 
 export const BurstObservatoryObject = z.object({
     subjectSelector: z.array(z.string()),

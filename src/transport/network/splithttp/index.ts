@@ -1,2 +1,2 @@
-export * from './XmuxObject';
-export * from './SplitHttpObject';
+export * from './XmuxObject.js';
+export * from './SplitHttpObject.js';

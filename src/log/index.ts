@@ -1,1 +1,1 @@
-export * from './LogObject';
+export * from './LogObject.js';
